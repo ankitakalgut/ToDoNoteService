@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8084
+      discovery:
+        service-id: ToDoConfigServer
+      
+management:
+  endpoint:
+     web:
+       exposure:
+        include: '*'
+       
+          
+          
